@@ -30,7 +30,7 @@ zuul:
       path: /**
       stripPrefix: false
       serviceId: web-portal
-    user-service:
+    user-microservice:
       path: /user-service/**
       stripPrefix: false
       serviceId: user-microservice
