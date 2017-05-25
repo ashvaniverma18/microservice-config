@@ -30,6 +30,10 @@ zuul:
       path: /**
       stripPrefix: false
       serviceId: web-portal
+    user-service:
+      path: /user-service/**
+      stripPrefix: false
+      serviceId: user-microservice
 
 spring:
   aop:
